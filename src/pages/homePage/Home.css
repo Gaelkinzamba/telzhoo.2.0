@@ -1,0 +1,135 @@
+.home {
+    width: 100vw;
+    height: 100%;
+    padding: 0em 2em 0em 0em;
+    /* background-color: yellow; */
+}
+
+.home-container {
+    display: flex;
+}
+
+.home-side-bar {
+    background: #e3e3e3;
+    width: 12%;
+}
+
+.home__inputContainer {
+    /* background-color: red; */
+    font-size: 1em;
+}
+
+.home-main-section {
+    /* background : blue; */
+    /* height : 100%; */
+    width: 90%;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.header__right>.MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    /* margin-top: 10px; */
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.home__body .home_settings_btn {
+    float: right;
+    /* background-color: yellow; */
+    /* padding: 2em; */
+    position: absolute;
+    padding: 1em 2em;
+    text-align: center;
+    color: rgb(13, 145, 150);
+}
+
+.home__body .home_settings_btn:hover,
+.home__body .home_settings_btn:active,
+.home__body .home_settings_btn:focus {
+    /* float: right; */
+    /* background-color: rgb(223, 103, 6); */
+    color: rgb(223, 103, 6);
+    /* padding: 2em; */
+    /* position: absolute; */
+    /* padding: 1em 2em; */
+    /* text-align: center; */
+}
+
+.home_settings_btn .gear_setting {
+    display: block;
+    margin: 0em auto;
+    font-style: normal;
+}
+
+.home_settings_btn i {
+    font-style: normal;
+    font-size: .8em;
+    letter-spacing: .05em;
+}
+
+.home__body>img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.home__body .home__appsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.home__newsContainer {
+    margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .home__body .home_settings_btn {
+        /* background-color: yellow; */
+        padding: 1em .5em 0em .5em;
+    }
+    .home__body .home_settings_btn i {
+        display: none;
+    }
+    .home .home__body .home_news {
+        /* background-color: red; */
+        padding: 0em .5em;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {}
+
+@media (min-width: 481px) and (max-width: 768px) {}

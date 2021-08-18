@@ -1,0 +1,477 @@
+.searchPage {
+    background-color: white;
+}
+
+.searchPage__header {
+    /* border-bottom: 3px solid #eee; */
+    margin-bottom: 0;
+    /* background-color: yellow; */
+    padding: .5em;
+}
+
+.searchPage__header .home_settings_btn {
+    float: right;
+    /* background-color: yellow; */
+    /* padding: 2em; */
+    position: absolute;
+    padding: 1em 2em;
+    text-align: center;
+    color: rgb(13, 145, 150);
+}
+
+.searchPage__header .home_settings_btn:hover,
+.searchPage__header .home_settings_btn:active,
+.searchPage__header .home_settings_btn:focus {
+    /* float: right; */
+    /* background-color: rgb(223, 103, 6); */
+    color: rgb(223, 103, 6);
+    /* padding: 2em; */
+    /* position: absolute; */
+    /* padding: 1em 2em; */
+    /* text-align: center; */
+}
+
+.home_settings_btn .gear_setting {
+    display: block;
+    margin: 0em auto;
+    font-style: normal;
+}
+
+.home_settings_btn i {
+    font-style: normal;
+    font-size: .8em;
+    letter-spacing: .05em;
+}
+
+.searchPageResultShadow {
+    /* background-color: red; */
+    box-shadow: .0em .0em .2em rgb(24, 73, 80);
+}
+
+.searchPage__result:hover,
+.searchPage__result:active {
+    box-shadow: 0em 0em .5em rgb(223, 103, 6);
+    cursor: pointer;
+}
+
+.searchPage__logoContainer {
+    padding-bottom: 1em;
+    margin: 0em auto;
+    width: 60%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.searchPage__logo {
+    width: 10em;
+}
+
+.searchPage__headerBody {
+    width: 100%;
+    /* background-color: blue; */
+    margin: -2.5em auto .1em auto;
+}
+
+.searchPage__body {
+    height: 100%;
+    margin-top: 0;
+    /* background-color: yellow; */
+    border: 0em;
+}
+
+.text-container {
+    /* background-color: yellow; */
+    font-family: sans-serif;
+}
+
+.latest-news {
+    padding-left: 5px;
+    /* padding-right: 20px; */
+    /* border-right: 3px solid rgb(238, 238, 238); */
+    padding-top: -4em;
+    /* background-color: red; */
+    margin-top: -3.4em;
+    /* border-top: .1em solid rgb(218, 218, 218); */
+}
+
+.search-results .searchPage__results .images {
+    /* background-color: red; */
+    padding: 1em 4em;
+    color: rgb(3, 121, 129);
+}
+
+.search-results .searchPage__results .images a {
+    /* background-color: red; */
+    color: rgb(3, 121, 129);
+    text-decoration: underline;
+}
+
+.search-results .searchPage__results .images a:hover {
+    /* background-color: red; */
+    color: rgb(223, 103, 6);
+    text-decoration: underline;
+}
+
+.searchPage__result {
+    /* border: 3px solid #eee; */
+    display: flex;
+    margin-bottom: 2em;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: blue; */
+}
+
+.searchPage__resultCount {
+    color: #70757a;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.searchPage__results h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 120px;
+    height: 130px;
+    padding: 5px;
+}
+
+.searchPage__resultImage {
+    width: 120px;
+    height: 100px;
+}
+
+.result-site {
+    text-decoration: none;
+}
+
+.result-site span {
+    color: #000;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.result-site span:hover {
+    color: rgb(100, 100, 253);
+    margin-top: 13px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.searchPage__resultTitle {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultTitle>h2 {
+    font-weight: 500;
+}
+
+.searchPage__resultSnippet {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pagination-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.paginate-btn {
+    background-color: rgb(3, 121, 129);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(3, 121, 129);
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.6s;
+    width: 80px;
+    text-align: center;
+    margin: 5px;
+}
+
+.paginate-btn:hover {
+    background-color: rgb(223, 103, 6);
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.searchPage__result button {
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    padding: 8px;
+    float: right;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.6s;
+}
+
+.searchPage__result button:hover {
+    background-color: #fff;
+    color: #000;
+    margin-top: 18px;
+    border: none;
+    float: right;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.loader-spinner {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+@media (max-width: 319px) {
+    .latest-news {
+        display: none;
+    }
+    .searchPage__header {
+        /* background-color: yellow; */
+        font-size: 1em;
+    }
+    .searchPage__logoContainer {
+        font-size: 1em;
+        margin: 0em auto;
+        width: 60%;
+        text-align: center;
+        /* background-color: red; */
+    }
+    .searchPage__logo {
+        font-size: 1em;
+        /* background-color: blue; */
+    }
+    .latest-news {
+        display: none;
+    }
+    .searchPage__results {
+        margin: 2em .5em;
+        /* padding-top: 20px; */
+        /* background-color: red; */
+    }
+    .searchPage__results .text-container {
+        /* background-color: yellow; */
+        font-size: .9em;
+        font-weight: 100;
+    }
+    .searchPage__result {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #f6f6f6;
+        font-size: 1em;
+    }
+    .searchPage__resultTitle>h2 {
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .searchPage__headerBody {
+        /* background-color: blue; */
+        margin: .1em auto .5em auto;
+    }
+    .image-container>.searchPage__resultTitle {
+        display: none;
+    }
+    .searchPage__header .home_settings_btn {
+        /* background-color: yellow; */
+        padding: 1em .5em 0em .5em;
+    }
+    .searchPage__header .home_settings_btn i {
+        display: none;
+    }
+    .searchPage__resultSnippet {
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .searchPage__header {
+        /* background-color: yellow; */
+        font-size: 1em;
+    }
+    .searchPage__logoContainer {
+        font-size: 1em;
+        margin: 0em auto;
+        width: 60%;
+        text-align: center;
+        /* background-color: red; */
+    }
+    .searchPage__logo {
+        font-size: 1em;
+        /* background-color: blue; */
+    }
+    .latest-news {
+        display: none;
+    }
+    .searchPage__results {
+        margin: 2em .5em;
+        /* padding-top: 20px; */
+        /* background-color: red; */
+    }
+    .searchPage__results .text-container {
+        /* background-color: yellow; */
+        font-size: .9em;
+        font-weight: 100;
+    }
+    .searchPage__result {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #f6f6f6;
+        font-size: 1em;
+    }
+    .searchPage__resultTitle>h2 {
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .searchPage__headerBody {
+        /* background-color: blue; */
+        margin: .1em auto .5em auto;
+    }
+    .searchPage__result .image-container {
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .text-container .searchPage__resultTitle {
+        display: none;
+    }
+    .searchPage__header .home_settings_btn {
+        /* background-color: yellow; */
+        padding: 1em .5em 0em .5em;
+    }
+    .searchPage__header .home_settings_btn i {
+        display: none;
+    }
+    .searchPage__resultSnippet {
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .searchPage__logoContainer {
+        font-size: 1em;
+        margin: 0em auto;
+        width: 60%;
+        text-align: center
+    }
+    .searchPage__logo {
+        font-size: 1em;
+        /* background-color: blue; */
+    }
+    .latest-news {
+        display: none;
+    }
+    .searchPage__results {
+        margin: 2em .5em;
+        /* padding-top: 20px; */
+        /* background-color: red; */
+    }
+    .image-container>.searchPage__resultTitle {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and ( max-width: 992px) {
+    .searchPage__logoContainer {
+        font-size: 1em;
+        margin: 0em auto;
+        width: 60%;
+        text-align: center
+    }
+    .searchPage__logo {
+        font-size: 1em;
+        /* background-color: blue; */
+    }
+    .searchPage__body {
+        display: flex;
+        height: 100%;
+        margin-top: 0;
+    }
+    .latest-news {
+        /* flex: 3; */
+        display: none;
+    }
+    .searchPage__results {
+        margin: 2em .5em;
+        /* padding-top: 20px; */
+        /* background-color: red; */
+        flex: 9;
+    }
+    .image-container>.searchPage__resultTitle {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) {
+    .searchPage__logoContainer {
+        font-size: 1em;
+        margin: 0em auto;
+        width: 60%;
+        text-align: center
+    }
+    .searchPage__logo {
+        font-size: 1em;
+        /* background-color: blue; */
+    }
+    .searchPage__body {
+        display: flex;
+        height: 100%;
+        margin-top: 0;
+        /* background-color: pink; */
+    }
+    .searchPage__body .latest-news {
+        flex: 3;
+        /* background-color: blue; */
+    }
+    .searchPage__results,
+    .searchPage__body .search-results {
+        margin: 2em .5em;
+        /* padding-top: 20px; */
+        /* background-color: red; */
+        flex: 9;
+    }
+    .image-container>.searchPage__resultTitle {
+        display: none;
+    }
+}
