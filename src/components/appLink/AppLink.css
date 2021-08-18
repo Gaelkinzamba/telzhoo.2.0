@@ -1,0 +1,67 @@
+.app-container {
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.app-container:hover {
+    border-radius: 10px;
+    color: #fff;
+    transition : 0.6s
+}
+.app-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size : 16px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .app-container {
+        width: 65px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 10px;
+        float: left;
+        /* background-color: yellow; */
+    }
+    .app-container a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+}
+@media (min-width: 769px) {
+    .app-container {
+        width: 65px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 10px;
+        float: left;
+    }
+    .app-container a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .app-container {
+        width: 65px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 10px;
+        float: left;
+    }
+    .app-container a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+    }
+}

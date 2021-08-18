@@ -1,0 +1,153 @@
+.setting_main {
+    font-size: 1em;
+    flex: 9;
+}
+
+.usr_main .shadow_effect {
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: .4em;
+    box-shadow: .1em .1em .5em rgb(191, 191, 191);
+}
+
+.p_name {
+    float: left;
+}
+
+.usr_main {
+    clear: both;
+    /* background-color: rgb(47, 233, 193); */
+    margin: 5em 0em;
+}
+
+.usr_main>.profile_details {
+    float: right;
+    /* background-color: rgb(15, 84, 69); */
+    width: 45%;
+}
+
+.usr_main>.edit_profile {
+    float: left;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.usr_main>.edit_profile,
+.usr_main>.profile_details {
+    /* width: 45%; */
+    /* margin: 5em auto; */
+    /* display: inline; */
+    background-color: rgb(250, 250, 250);
+}
+
+.usr_head {
+    font-size: 2em;
+    padding: 1em;
+    background-color: rgb( 71, 151, 160);
+    width: 95%;
+    margin: 0em auto;
+    position: relative;
+    top: -.6em;
+    color: rgb( 255, 255, 255);
+}
+
+.usr_photo {
+    box-shadow: .1em .1em .5em rgb(191, 191, 191);
+    background-color: rgb( 71, 151, 160);
+    width: 9.5em;
+    padding: 4em 1em;
+    border-radius: 70%;
+    margin: 0em auto;
+    position: relative;
+    top: -3em;
+    color: rgb( 255, 255, 255);
+}
+
+.edit_form {
+    font-size: 1em;
+}
+
+.edit_form input[type=text],
+.edit_form input[type=email] {
+    margin: 1em;
+    background-color: rgb(250, 250, 250);
+    padding: .7em 0em;
+    border: 0em;
+    width: 90%;
+    border-bottom: .01em solid rgb( 210, 210, 210);
+}
+
+.edit_form input:active input:hover {
+    border: none;
+    border-radius: 0em;
+}
+
+.profile_details button {
+    background-color: rgb( 71, 151, 160);
+    padding: .5em 1em;
+    border: none;
+    margin: 2em auto;
+    border-radius: .5em;
+    color: rgb( 255, 255, 255);
+}
+
+.profile_details p {
+    text-align: center;
+    margin: 2em 1em;
+}
+
+.edit_form input[type=submit] {
+    background-color: rgb( 71, 151, 160);
+    margin: 1em;
+    color: rgb( 255, 255, 255);
+    border: 0em;
+    padding: .7em 1em;
+    border-radius: .5em;
+}
+
+.edit_form input[type=submit]:hover {
+    background-color: rgb( 223, 103, 6);
+    color: rgb( 255, 255, 255);
+}
+
+.profile_details .follow_btn:hover {
+    background-color: rgb( 223, 103, 6);
+}
+
+@media screen and ( max-width: 30em) {
+    .usr_main>.edit_profile {
+        /* background-color: black; */
+        font-size: 1em;
+    }
+    .usr_main>.profile_details {
+        /* background-color: black; */
+        font-size: 1em
+    }
+    .usr_main>.edit_profile,
+    .usr_main>.profile_details {
+        width: 95%;
+        margin: 5em auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and ( min-width: 30.001em) and ( max-width: 48em) {
+    .usr_main>.edit_profile,
+    .usr_main>.profile_details {
+        width: 95%;
+        margin: 5em auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and ( min-width: 48.0625em) {
+    /* .usr_main > .edit_profile, .usr_main > .profile_details {
+    width: 90%;
+    margin: 5em auto;
+    display: block;
+  } */
+    .usr_main {
+        margin: 5em 2em;
+    }
+}

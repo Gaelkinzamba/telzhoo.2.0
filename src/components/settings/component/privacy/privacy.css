@@ -1,0 +1,40 @@
+
+.privacy_container {
+  flex: 9;
+}
+
+.privacy_container .privacy {
+  /* background-color: yellow; */
+  padding: 0em 1em;
+}
+
+.loginPassword h3 {
+  padding: 1em 0em 0em 0em;
+}
+
+.loginPassword p {
+  padding: .3em 0em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.privacy_container .pad_left {
+  padding-left: 1em;
+}
+
+.privacy_container .address_bar {
+  /* background-color: yellow; */
+  font-size: 1em;
+}
+
+.address_bar {
+  padding: 3em 0em;
+}
+
+.address_bar p {
+  padding: .5em 0em;
+}
+
+button {
+  background-color: rgb( 71, 151, 160);
+}

@@ -1,0 +1,217 @@
+
+.setting_main {
+  font-size: 1em;
+  background-color: rgb( 240, 240, 240);
+  flex: 9;
+}
+
+.main, .stat2_main {
+  clear: both;
+  /* background-color: rgb(47, 233, 193); */
+  margin: 3em 0em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stat1 {
+  width: 30%;
+  float: left;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.stat1 > .top {
+  background-color: rgb(217, 33, 226);
+  padding: 1.5em;
+  margin: .5em;
+}
+
+.shadow_effect {
+  /* font-size: 1em; */
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: .4em;
+  box-shadow: .1em .1em .5em rgb(191, 191, 191);
+}
+
+.middle {
+  /* background-color: rgb(92, 28, 81); */
+  text-align: right;
+  margin-top: 2em;
+}
+
+.bottom {
+  /* background-color: rgb(247, 9, 120); */
+  text-align: center;
+  border-top: .1em solid rgb(200, 200, 200) ;
+  width: 90%;
+  margin: 0em auto;
+}
+
+.bottom, .middle {
+  padding: .5em;
+}
+
+.stat2 {
+  width: 46%;
+  float: left;
+  /* margin: 0em; */
+  position: relative;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.stat2 > .top2 {
+  background-color: rgb(217, 33, 226);
+  padding: 1.5em;
+  /* margin: .5em .5em 0em .5em; */
+  margin: .5em auto;
+  width: 95%;
+  position: relative;
+  top: -1.5em;
+
+}
+
+.stat2 > .middle {
+  margin-top: -1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIREFOX LAYOUT STYLE */
+.tabs {
+  padding: 0em 1em 4em 0em;
+  /* background-color: red; */
+}
+
+.tabs p {
+  margin: 1em;
+  /* background-color: rgb( 250, 250, 250 ); */
+}
+
+/* .tabs input {} */
+
+
+/* Appearance */
+.Appearance {
+  padding: 1em 1em 4em 1em;
+}
+.Appearance > div {
+  display: inline-block;
+  margin: 1em 0em 1em 1em;
+}
+
+.Appearance .fonts {
+  margin: 1em 0em 1em 0em;
+}
+
+select {
+  background-color: rgb( 71, 151, 160);
+  border: 0em;
+  color: rgb( 250, 250, 250 );
+  padding: .5em;
+  border-radius: .5em;
+}
+
+/* Zoom section */
+.Zoom {
+  padding: 1em 1em 4em 1em;
+}
+
+.Zoom div {
+  padding: .4em 0em;
+}
+
+/* Language section */
+.language {
+  padding: 1em 1em 4em 1em;
+  /* padding: .5em 0em; */
+}
+
+.language h4 {
+  padding: .5em 0em;
+}
+
+.language div {
+  padding: .5em 0em;
+}
+
+/* Download section */
+.download {
+  padding: 1em 1em 4em 1em;
+}
+
+/* .download p {
+
+} */
+
+.download div p {
+  padding: .3em 0em;
+}
+/* telzzo updates */
+.telzzo_update {
+  padding: 1em 1em 4em 1em;
+}
+
+/* Browsing section */
+.browsing {
+  padding: 1em 1em 4em 1em;
+}
+
+.browsing p {
+  padding: .5em 0em;
+}
+
+.browsing div {
+  padding: .3em 0em;
+}
+
+.bottom_border {
+  border-bottom: .1em solid rgb(255, 255, 255);
+}
+
+
+
+
+/* less than 480 px */
+@media screen and ( max-width: 30em ) {
+  .main {
+    margin-bottom: 1em;
+  }
+  .main, .stat2_main {
+    flex-direction: column;
+  }
+  .stat1, .stat2 {
+    float: none;
+    width: 95%;
+    margin: 1em auto;
+  }
+
+  .stat2_main {
+    margin-top: 1em;
+  }
+
+  /* .stat2 {
+    float: none;
+    width: 95%;
+  } */
+}
+
+/* min-width of 961 and above */
+/* @media screen and ( max-width: 60em ) {
+  .stat > .top {
+    padding: em;
+    margin: .5em;
+  }
+  
+} */

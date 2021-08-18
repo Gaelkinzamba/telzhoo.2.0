@@ -1,0 +1,84 @@
+
+.setting_root {
+  font-size: 1em;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.setting_root .dash_board {
+  font-size: 1em;
+  /* background-color: rgb( 170, 0, 0); */
+  flex: 3;
+  background-color: rgb(240, 240, 240);
+  /* box-shadow: 0em 0em .5em rgb(0, 0, 0); */
+  border-right: .1em solid rgb( 0, 0, 0);
+}
+
+.heading {
+  border-bottom: .1em solid rgb(102, 102, 102);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgb(71, 151, 160);
+  padding: .8em .5em;
+  color: rgb( 255, 255, 255);
+  margin: auto .35em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu_item {
+  text-align: center;
+  padding: 1em;
+  /* background-color: rgb(71, 151, 160); */
+  margin: .5em;
+  color: rgb(71, 151, 160);
+}
+
+.menu_item a:hover {
+  color: rgb( 255, 255, 255) ;
+}
+
+.menu_item a {
+  color: rgb(71, 151, 160);
+}
+
+.menu_item:hover {
+  background-color: rgb( 219, 140, 37);
+  color: rgb( 255, 255, 255) ;
+}
+
+.menu_item:hover { cursor: pointer; }
+
+li { list-style: none; }
+
+button {
+  background-color: rgb(71, 151, 160);
+  border: 0em;
+  color: rgb( 255, 255, 255);
+  border-radius: .5em;
+  padding: .5em 1em;
+}
+
+input:focus, input:active {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb( 219, 140, 37);
+}
+
+@media screen and ( max-width: 60em ) {
+  .dash_board {
+    display: none;
+  }
+}
+
+
+@media screen and ( min-width: 60.001em ) {
+  .dash_board {
+    flex: 2;
+  }
+}

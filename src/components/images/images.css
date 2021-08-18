@@ -1,0 +1,55 @@
+.images {
+    margin: 2em 0em;
+}
+
+.images .images_container {
+    background-color: blue;
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 0em 2em;
+}
+
+.images .images_container .image {
+    width: 15em;
+    height: 10em;
+    float: left;
+    padding: .5em;
+}
+
+.images .images_container .image:hover {
+    box-shadow: 0em 0em .2em rgb(223, 103, 6);
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 320px) and (max-width: 480px) {
+    .images .images_container .image {
+        width: 7em;
+        height: 5em;
+        padding: 1em .5em;
+    }
+    .images .images_container {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .images .images_container .image {
+        width: 8em;
+        height: 6em;
+        padding: 1em .5em;
+    }
+    .images .images_container {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width: 769px) and ( max-width: 992px) {
+    .images .images_container .image {
+        width: 8em;
+        height: 6em;
+        padding: 1em .5em;
+    }
+    .images .images_container {
+        padding: 0em 1em;
+    }
+}
